@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, sans-serif;
+            font-size: large;
+        }
+        nav, .form, .signup{
+            padding: 20px;
+        }
+        .home{
+            margin-top: 10%;
+            padding: 10px;
+            background-color: #476955;
+            text-decoration: none;
+            color: white;
+        }
+        .form label{
+            margin-right: 5px;
+        }
+        .form input{
+            margin-bottom: 10px;
+        }
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #476955;
+            font-size: larger;
+            color: antiquewhite;
+        }
+        .back{
+            color: rgb(250, 226, 215);
+            padding: 10px ;
+            background-color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+        footer p a:hover {
+            color: #0e12f8; /* Change color on hover */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="home" target="_blank">Home</a>
+    </nav>
+    <div class="signup">
+        <h1>Sign Up</h1>
+        <p>Take the next steps to apply at AltSchool Africa</p>
+    </div>
+    <div class="form">
+        <form action="#">
+            <label for="Firstname">Firstname</label>
+            <input type="text" placeholder="Firstname"><br>
+            <label for="Lastname">Lastname</label>
+            <input type="text" placeholder="Lastname"><br>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email"><br>
+            <label for="gender">Gender</label>
+            <select name="Gender">
+                <option value="select gender">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select><br>
+            <label for="date of birth">Date of Birth</label>
+            <input type="date"><br>
+            <label for="phone number">Phone Number</label>
+            <input type="number" placeholder="Phone Number"><br>
+            <label for="country of residence">country of Residence</label>
+            <input type="text" placeholder="Country of Residence"><br>
+            <label for="state of residence">State of Residence</label>
+            <input type="text" placeholder="State of Residence"><br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Password"><br>
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" placeholder="Confirm Password"><br>
+            <label for="About us">How did you hear about us</label>
+            <input type="text" placeholder="Optional: Let us know how you found us"><br>
+            <p>By clicking continue, I agree to Terms of Use and acknowledge that I have read
+                the Privacy Policy.
+            </p>
+            <button>Signup &#8594;</button>
+        </form>
+    </div>
+    <footer>
+        <address>
+          Ude Maduabuchi Onyedikachi<br>
+          NO 5 Uche Nwambe street Abakaliki<br>
+          Ebonyi state, Nigeria<br>
+        </address>
+        <p class="right">&copy; 2025 Ude Maduabuchi. All rights reserved.</p>
+        <p><a href="#top" class="back">Back to top</a></p> <!-- Link to scroll back to the top -->
+      </footer>
+</body>
+</html>
